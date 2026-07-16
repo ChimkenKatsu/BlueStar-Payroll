@@ -117,14 +117,45 @@ input, select { font-family: inherit; }
   color: var(--text-muted); font-size: 13px;
 }
 .field input {
-  width: 100%; padding: 12px 14px 12px 38px; border: 1.5px solid var(--border);
-  border-radius: var(--radius-sm); font-size: 13.5px; transition: var(--transition);
+  width: 100%;
+  padding: 12px 46px 12px 38px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 13.5px;
+  transition: var(--transition);
   background: #FBFCFE;
 }
 .field input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(30,136,229,0.12); background: #fff; }
 .toggle-pass {
-  position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
-  color: var(--text-muted); font-size: 13px; background: none; padding: 4px;
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: #7b8794;
+  padding: 0;
+  z-index: 10;
+}
+
+.toggle-pass:hover {
+  color: var(--primary);
+}
+
+.toggle-pass i {
+  font-size: 15px;
+  pointer-events: none;
 }
 
 .btn {

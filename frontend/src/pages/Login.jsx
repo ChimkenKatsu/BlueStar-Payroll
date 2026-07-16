@@ -36,20 +36,27 @@ export default function Login() {
 
 function PasswordInput({ id, value, onChange, placeholder }) {
   const [visible, setVisible] = useState(false);
+
   return (
     <div className="input-wrap">
       <i className="fa-solid fa-lock"></i>
+
       <input
-        type={visible ? 'text' : 'password'}
         id={id}
+        type={visible ? "text" : "password"}
         placeholder={placeholder}
         autoComplete="current-password"
-        required
         value={value}
         onChange={onChange}
+        required
       />
-      <button type="button" className="toggle-pass" onClick={() => setVisible((v) => !v)}>
-        <i className={`fa-solid ${visible ? 'fa-eye-slash' : 'fa-eye'}`}></i>
+
+      <button
+        type="button"
+        className="toggle-pass"
+        onClick={() => setVisible(!visible)}
+      >
+        <i className={`fa-solid ${visible ? "fa-eye-slash" : "fa-eye"}`}></i>
       </button>
     </div>
   );
