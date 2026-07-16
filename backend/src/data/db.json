@@ -1,0 +1,68 @@
+{
+  "admin": [
+    {
+      "username": "admin",
+      "password": "4772ee7fccece8f95c606262cab231c34b10d7b73fc56f0d4894e01b2f2c2c5a"
+    }
+  ],
+  "teachers": [
+    {
+      "employeeId": "41011",
+      "password": "cc758beb0b3d0084da70bb01be0eea30b864971b62928ba8571914dbcf2a97b4",
+      "name": "Teacher Wia",
+      "basicSalary": 5000
+    },
+    {
+      "employeeId": "41012",
+      "password": "52c2bb3dac814a4583afc8b05a8f71cd76b802627c50e1ffb011a700772f68ea",
+      "name": "Teacher Niana",
+      "basicSalary": 10000
+    }
+  ],
+  "payroll": [
+    {
+      "payrollId": "PR-2607-0001",
+      "employeeId": "41011",
+      "payrollPeriod": "July 15-30",
+      "attendance": "",
+      "classTally": "",
+      "basicSalary": 5000,
+      "allowances": 0,
+      "bonuses": 0,
+      "otherEarnings": 0,
+      "grossSalary": 5000,
+      "sss": 0,
+      "philhealth": 0,
+      "pagibig": 0,
+      "tax": 0,
+      "cashAdvance": 0,
+      "otherDeductions": 0,
+      "totalDeductions": 0,
+      "netPay": 5000,
+      "releaseDate": "2026-07-15",
+      "status": "Published"
+    },
+    {
+      "payrollId": "PR-2607-0002",
+      "employeeId": "41012",
+      "payrollPeriod": "July 15-30",
+      "attendance": "10",
+      "classTally": "",
+      "basicSalary": 10000,
+      "allowances": 0,
+      "bonuses": 50,
+      "otherEarnings": 0,
+      "grossSalary": 10050,
+      "sss": 410,
+      "philhealth": 200,
+      "pagibig": 50,
+      "tax": 50,
+      "cashAdvance": 2000,
+      "otherDeductions": 0.05,
+      "totalDeductions": 2710.05,
+      "netPay": 7339.95,
+      "releaseDate": "2026-07-15",
+      "status": "Published"
+    }
+  ]
+}
