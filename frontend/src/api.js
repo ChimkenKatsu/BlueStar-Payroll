@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = 'https://blue-star-payroll-api.onrender.com/api';
 
 /**
  * Thin fetch wrapper that plays the same role google.script.run played in
